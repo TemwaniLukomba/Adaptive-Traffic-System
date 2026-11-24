@@ -1,0 +1,14 @@
+{
+  "name": "Mixed corridor (crossroads, T-junction, pedestrian crossing, one-way crossing)",
+  "nodes": [
+    {"id": "A", "layout": "crossroads"},
+    {"id": "B", "layout": "t_junction"},
+    {"id": "C", "layout": "road_crossing", "rotation": 90},
+    {"id": "D", "layout": "crossroads"}
+  ],
+  "links": [
+    {"from": "A.east", "to": "B.west", "length": 220},
+    {"from": "B.east", "to": "C.west", "length": 180},
+    {"from": "C.east", "to": "D.west", "length": 220}
+  ]
+}

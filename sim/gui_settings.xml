@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Used by run_sim.py --gui. Draws each vehicle as its real shape (sedan, van, truck,
+     motorcycle) and each pedestrian as a walking person, instead of triangles.
+     The shapes themselves come from guiShape in make_demand.py.
+     If your sumo-gui still shows triangles: View settings (the colour-wheel icon) ->
+     Vehicles -> Show As -> "simple shapes", and Persons -> Show As -> "simple shapes". -->
+<viewsettings>
+    <scheme name="real world">
+        <vehicles vehicleMode="0" vehicleQuality="2" vehicleSize.minSize="1" vehicleSize.exaggeration="3" showBlinker="1"/>
+        <persons personMode="0" personQuality="2" personSize.minSize="1" personSize.exaggeration="6"/>
+    </scheme>
+    <delay value="50"/>
+</viewsettings>

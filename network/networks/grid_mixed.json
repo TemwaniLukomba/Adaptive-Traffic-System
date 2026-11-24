@@ -1,0 +1,15 @@
+{
+  "name": "Small grid with a one-way street",
+  "nodes": [
+    {"id": "A", "layout": "crossroads"},
+    {"id": "B", "layout": "crossroads"},
+    {"id": "C", "layout": "one_way_cross"},
+    {"id": "D", "layout": "t_junction", "rotation": 180}
+  ],
+  "links": [
+    {"from": "A.east", "to": "B.west", "length": 220},
+    {"from": "A.south", "to": "C.north", "length": 200},
+    {"from": "B.south", "to": "D.north", "length": 200},
+    {"from": "C.east", "to": "D.west", "length": 220}
+  ]
+}

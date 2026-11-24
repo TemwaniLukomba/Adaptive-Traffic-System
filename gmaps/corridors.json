@@ -1,0 +1,7 @@
+{
+  "_note": "One entry per DIRECTED link id from network/networks/*.json. Fill in real latitude and longitude for the road just before the first junction and just after the next one. These values are placeholders in central Lusaka, not measured points.",
+  "links": {
+    "A.east>B.west": {"origin": {"lat": -15.4167, "lng": 28.2833}, "destination": {"lat": -15.4167, "lng": 28.2870}},
+    "B.west>A.east": {"origin": {"lat": -15.4167, "lng": 28.2870}, "destination": {"lat": -15.4167, "lng": 28.2833}}
+  }
+}

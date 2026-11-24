@@ -1,0 +1,32 @@
+# environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# your footage and model downloads (large, and not yours to redistribute)
+data/
+*.mp4
+*.avi
+*.mov
+*.pt
+
+# files the programs generate
+site.json
+site_preview.png
+decisions.csv
+*.log
+sim/network/*.net.xml
+sim/network/layout.json
+sim/network/connections.con.xml
+sim/demand/
+sim/results/
+network/sumo/
+network/results_sumo/
+network/results_loss*/
+network/results/network_study.csv
+gmaps/profile*.json
+
+# secrets: never commit an API key
+.env
+*.key

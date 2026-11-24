@@ -1,0 +1,26 @@
+{
+  "features": [
+    "eta_0_10",
+    "eta_10_20",
+    "eta_20_40",
+    "queued_for_link",
+    "green_to_link",
+    "queued_x_green",
+    "my_queue"
+  ],
+  "weights": [
+    0.9433207093416179,
+    1.3960852725390858,
+    0.0,
+    0.065737860679236,
+    -0.45521256580186154,
+    0.03760148575374071,
+    -0.030986690501197765
+  ],
+  "bias": 1.2500844895978773,
+  "meta": {
+    "trained_on": "simulator, corridor.json",
+    "samples": 170880,
+    "horizon_s": 20
+  }
+}
